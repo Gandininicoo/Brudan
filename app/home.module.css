@@ -1,0 +1,107 @@
+.mates{
+    display: flex!important;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-image:url(../public/matehome.jpg);
+    background-size: cover;
+    background-repeat: none;
+    color: transparent;
+    cursor: pointer;
+    background-position: center;
+    border-radius: 20px;
+    transition: ease .5s;
+}
+.mates:hover{
+    background-position: left;
+}
+.mates p{
+    color: #fafafa;
+    align-self: flex-end;
+    font-size: 1.8rem;
+    padding-left: 40px;
+}
+.homeSquaresbody{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 40vh;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.homeSquaresbody a{
+    display: block;
+    text-decoration: none;
+}
+.homeSquaresbody article{
+    display: flex;
+    text-decoration: none;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.productoshomesecundarios{
+    margin-top: 10px;
+    display: flex!important;
+    width: 47%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-repeat: none;
+    color: transparent;
+    cursor: pointer;
+    background-position: center;
+    border-radius: 20px;
+    transition: ease .5s;
+}
+.productoshomesecundarios:hover{
+    background-position: left;
+}
+.productoshomesecundarios p{
+    color: #fafafa;
+    align-self: flex-end;
+    font-size: 1.5rem;
+    padding-left: 40px;
+}
+.bombilla{
+    background-image:url(../public/bombillahome.jpg);
+}
+.portatermo{
+    background-image:url(../public/portatermohome.jpg);
+}
+.cuchillo{
+    background-image:url(../public/cuchillohome.jpg);
+}
+.asado{
+    background-image:url(../public/asadohome.jpg);
+}
+.homefooter{
+    margin: 0;
+    margin: auto;
+    width: 75%;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: black!important;
+    line-height: 1.5em;
+}
+.homefooter a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black!important;
+}
+@media all and (max-width: 800px){
+    .homefooter{
+        font-size: .9rem;
+    }
+    .homeSquaresbody article{
+        width: 100%;
+    }
+    .mates{
+        aspect-ratio: 3/1;
+    }
+    .mates p{
+        font-size: 1.2rem;
+    }
+
+    .productoshomesecundarios p{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,68 @@
+.cardbody{
+    min-width: 180px;
+    margin: 10px;
+    width: 18%;
+    aspect-ratio: 22/30;
+    background-color: #fafafa;
+    border-radius: 10px;
+    transition: ease .5s;
+    padding: 5px;
+}
+.cardbody:hover{
+    box-shadow: 0 7px 11px 0 rgba(0,0,0,.1), 0 2px 4px 0 rgba(0,0,0,.1);
+    transform: scale(1.05);
+}
+.cardbody article{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: ease-in-out .3s;
+    overflow: hidden;
+}
+.cardimg{
+    width: 95%;
+    aspect-ratio: 1/1;
+    object-fit: scale-down;
+    border-bottom: 1px solid #cacaca;
+    border-radius: 10px;
+}
+.cardtitle{
+    align-self: flex-end;
+    padding-bottom: 5%;
+    width: 95%;
+    font-size: .9rem;
+    text-align: center;
+    font-weight: 500;
+    min-height: 20px;
+    border-radius: 10px;
+}
+.cardprice{
+    width: 95%;
+    min-height: 20px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.skeleton{
+    border-bottom: none;
+    border-radius: 10px;
+    animation: skeleton .5s linear infinite alternate
+}
+@keyframes skeleton {
+    0%{
+        background-color: #eeeeee;
+    }
+    100%{
+        background-color: #d3d3d3;
+    }
+}
+@media all and (max-width: 800px){
+    .cardbody{
+        margin: 5px;
+    }
+}
