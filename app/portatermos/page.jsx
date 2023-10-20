@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import ProductosCategoria from "../../components/productoscategoria"
-export default function portatermos (){
+export default function Portatermos (){
     const categoria = decodeURI(usePathname()).slice(1);
     return(
         <>

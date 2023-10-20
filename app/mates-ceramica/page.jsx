@@ -1,8 +1,8 @@
 'use client'
 
 import { usePathname } from 'next/navigation';
-import ProductosCategoria from "../../components/productoscategoria"
-export default function Mates (){
+import ProductosCategoria from "../../components/productossubcategoria"
+export default function MatesCeramica (){
     const categoria = decodeURI(usePathname()).slice(1);
     return(
         <>

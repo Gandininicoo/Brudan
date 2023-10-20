@@ -23,6 +23,12 @@ export default function Loading(){
                 <CardLoading/>
                 <CardLoading/>
             </section>
+            <div className="homeBanner2"></div>
+            <section className={styles.homefooter}>
+                <p>Bru-Dan nace como un hijo de <a href="">El Remanso</a>, una distribuidora de regionales con mas de 20 años de experiencia. <br/>
+                Su creador, en el afán de acercar sus productos de la mas alta calidad a todo el mundo, decidio darle vida a este proyecto bajo las significativas siglas BRU-DAN. <br/>
+                Bruno y Dante, hijos de Sergio y su fuente de inspiración.</p>
+            </section>
         </>
     )
 }

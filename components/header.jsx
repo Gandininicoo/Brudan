@@ -24,7 +24,7 @@ export default function header() {
                                     <li><Link href="/mates-vidrio">VIDRIO</Link></li>
                                     <li><Link href="/mates-ceramica">CERAMICA</Link></li>
                                     <li><Link href="/mates-algarrobo">ALGARROBO</Link></li>
-                                    <li><Link href="/mates-calabazas">CALABAZAS</Link></li>
+                                    <li><Link href="/mates-calabaza">CALABAZAS</Link></li>
                                     <li><Link href="/mates-portio">PORTIO</Link></li>
                                 </ul>
                             </Link>
@@ -33,7 +33,7 @@ export default function header() {
                             <Link href="/portatermos">PORTATERMOS
                                 <ul className={styles.submenu}>
                                     <li><Link href="/portatermos-ecocuero">ECOCUERO</Link></li>
-                                    <li><Link href="/poratetermos-cuero">CUERO</Link></li>
+                                    <li><Link href="/portatermos-cuero">CUERO</Link></li>
                                 </ul>
                             </Link>
                         </li>

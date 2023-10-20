@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import ProductosCategoria from "../../components/productoscategoria"
-export default function cuchillos (){
+export default function Cuchillos (){
     const categoria = decodeURI(usePathname()).slice(1);
     return(
         <>

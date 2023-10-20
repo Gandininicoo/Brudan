@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import ProductosCategoria from "../../components/productoscategoria"
-export default function bombillas (){
+export default function Bombillas (){
     const categoria = decodeURI(usePathname()).slice(1);
     return(
         <>

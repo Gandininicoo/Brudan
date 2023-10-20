@@ -2,11 +2,11 @@
 
 import { usePathname } from 'next/navigation';
 import ProductosCategoria from "../../components/productossubcategoria"
-export default function BombillasAlpc (){
+export default function PortatermosCuero (){
     const categoria = decodeURI(usePathname()).slice(1);
     return(
         <>
-            <div className="categoryBanner" style={{backgroundImage: `url(../bombillahome.jpg)`}} > <h1>BOMBILLAS</h1> </div>
+            <div className="categoryBanner" style={{backgroundImage: `url(../portatermohome.jpg)`}} > <h1>PORTATERMOS</h1> </div>
             <ProductosCategoria busquedavalue={categoria}/>
         </>
     )

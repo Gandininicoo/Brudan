@@ -9,6 +9,7 @@ export default function Loading (){
                 <CardLoading/>
                 <CardLoading/>
             </section>
+            <div className="homeBanner2"></div>
         </>
     )
 }
