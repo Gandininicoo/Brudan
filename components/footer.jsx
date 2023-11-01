@@ -2,8 +2,8 @@ export default function Footer() {
     return (
         <footer>
             <section>
-            <a href="https://www.matesbrudan.com.ar/" target="_blank" class="linkimg"><img src="./logos/brudanlogo.png" alt="Mates Brudan"/></a>
-            <div href="#Inicio" class="linkimg"><img src="./logos/elremansolg.png" alt="Regionales El Remanso Logo" class=""/></div>
+            <a href="/" target="_blank" class="linkimg"><img src="./logos/brudanlogo.png" alt="Mates Brudan"/></a>
+            <div class="linkimg"><img src="./logos/elremansolg.png" alt="Regionales El Remanso Logo" class=""/></div>
             </section>
             <section>
             <a itemprop="+5403444405766" href="tel:" rel="nofollow">

@@ -5,7 +5,7 @@ import { useState } from "react"
 import styles2 from "./menu.module.css"
 import MenuDesplegable from './menu-desplegable'
 
-export default function header() {
+export default function Header() {
     const [menuOn, menuOff] = useState(false)
     let hiddenMenuClass = menuOn ? `${styles2.menumain} , ${styles2.menudesplegado} ` : `${styles2.menumain}`;
     const [bttnOn, bttnOff] = useState(false)

@@ -1,4 +1,4 @@
-import { Html } from "next/document"
+
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Buscador from "../components/buscador"
