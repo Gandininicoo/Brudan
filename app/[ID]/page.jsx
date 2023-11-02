@@ -27,7 +27,7 @@ export default async function productoExpandido({ params }) {
                 <p className={styles.description}>{producto.descripcion}</p>
                 <h4 className={styles.price}>${producto.precio}</h4>
                 <p className={styles.category} >Categoria: <Link href={producto.categoria.toLowerCase()}>{producto.categoria.toUpperCase()}</Link></p>
-                <a href={`https://wa.me/543444406441?text=${mensajewpp}`} className={styles.whatsappbttn} target='_blank'> <p>Consulta por whatsapp</p></a>
+                <a href={`https://wa.me/5403444405766?text=${mensajewpp}`} className={styles.whatsappbttn} target='_blank' rel="nofollow"> <p>Consulta por whatsapp</p></a>
             </section>
             <h4 className="homeTag">PRODUCTOS RELACIONADOS:</h4>
             <Recomendados subcategoria={producto.subcategoria}/>

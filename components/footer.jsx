@@ -6,7 +6,7 @@ export default function Footer() {
             <div class="linkimg"><img src="./logos/elremansolg.png" alt="Regionales El Remanso Logo" class=""/></div>
             </section>
             <section>
-            <a itemprop="+5403444405766" href="tel:" rel="nofollow">
+            <a href={`https://wa.me/5403444405766?text=Hola me comunico con BruDan para realizar una consulta`} target='_blank' rel="nofollow">
                 <span>+54 (3444) 405766</span>
             </a>
             <a class="header--custom-text" itemprop="email" href="mailto:matesbrudan@gmail.com" rel="nofollow">

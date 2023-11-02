@@ -14,7 +14,7 @@ export default function homePage(){
                     <Link href='/bombillas' className={`${styles.productoshomesecundarios} ${styles.bombilla}`}><p>Bombillas</p></Link>
                     <Link href='/portatermos' className={`${styles.productoshomesecundarios} ${styles.portatermo}`}><p>Portatermos</p></Link>
                     <Link href='/cuchillos' className={`${styles.productoshomesecundarios} ${styles.cuchillo}`}><p>Cuchillos</p></Link>
-                    <Link href='/cuchillos' className={`${styles.productoshomesecundarios} ${styles.asado}`}><p>Asado</p></Link>
+                    <Link href='/tablas' className={`${styles.productoshomesecundarios} ${styles.asado}`}><p>Asado</p></Link>
                 </article>
             </section>
             <ProductosHome/>
