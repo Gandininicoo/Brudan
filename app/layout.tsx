@@ -2,6 +2,7 @@
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Buscador from "../components/buscador"
+import type { Metadata } from 'next'
 import "../styles/global.css"
 import {Roboto_Condensed} from 'next/font/google'
 
@@ -12,7 +13,7 @@ const inter = Roboto_Condensed({
 
 
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Mates Bru-Dan',
   description: 'Mates Bru-Dan es una tienda de productos regionales de la mas alta calidad',
 }
@@ -26,7 +27,7 @@ export default function RootLayout({
     <html lang="es">
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="icon" href="./favicon.png" />
+      <link rel="icon" href="/favicon.ico" sizes="any" />
     </head>
     <body className={inter.className}>
     <Header/>
